@@ -11,8 +11,8 @@ def game_hash
     assists:
     steals:
     blocks:
-    slam_dunks:,
-    "Reggie Evans"number:
+    slam_dunks:},
+    {"Reggie Evans"number:
     shoe:
     points:
     rebounds:
