@@ -15,7 +15,7 @@ def game_hash
     :colors => ["Black", "White"],
     :players => [
       {
-      :name => "Alan Anderson",
+      :team_name => "Alan Anderson",
       :number => 0,
       :shoe => 16,
       :points => 22,
@@ -72,7 +72,7 @@ def game_hash
     ]
   },
   :away => {
-    :name => "Charlotte Hornets",
+    :team_name => "Charlotte Hornets",
     :colors => ["Turquoise", "Purple"],
     :players => [
       {
