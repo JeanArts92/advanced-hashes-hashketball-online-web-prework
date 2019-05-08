@@ -72,7 +72,7 @@ def game_hash
     ]
   },
   :away => {
-    :name => "Charlotte Hornets",
+    :team_name => "Charlotte Hornets",
     :colors => ["Turquoise", "Purple"],
     :players => [
       {
@@ -157,7 +157,7 @@ def shoe_size(name)
   game_hash.each do |team, details_hash|
     players_array = details_hash[:players]
       players_array.each do |player_details_hash|
-        if player_details_hash[:name] == name
+        if player_details_hash[:team_name] == name
           answer = player_details_hash[:shoe]
         end
       end
@@ -206,7 +206,7 @@ def player_stats(player_name)
   game_hash.each do |team, team_details_hash|
     team_details_hash[:players].each do |stats|
 
-      if stats[:name] == player_name
+      if stats[:team_name] == player_name
         stats.delete(:name)
         player_stats = stats
       end
